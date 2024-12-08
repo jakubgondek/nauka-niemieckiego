@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import type { Word } from '../types/vocabulary';
 
-const props = defineProps<{
+defineProps<{
   word: Word;
 }>();
 
