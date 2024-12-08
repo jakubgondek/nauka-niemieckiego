@@ -8,85 +8,73 @@ export const useVocabularyStore = defineStore('vocabulary', () => {
     "german": "Arbeitsgemeinschaft",
     "polish": "koło zainteresowań",
     "article": "die",
-    "category": "szkoła",
-    "example": null
+    "category": "szkoła"
   },
   {
     "german": "Lieblingsfach",
     "polish": "ulubiony przedmiot",
     "article": "das",
-    "category": "szkoła",
-    "example": null
+    "category": "szkoła"
   },
   {
     "german": "Lieblingsfächer",
     "polish": "ulubione przedmioty",
     "article": "die",
-    "category": "szkoła",
-    "example": null
+    "category": "szkoła"
   },
   {
     "german": "Lipgloss",
     "polish": "błyszczyk",
-    "article": "der/das",
-    "category": "rzeczy osobiste",
-    "example": null
+    "article": "das",
+    "category": "rzeczy osobiste"
   },
   {
     "german": "Pausenbrot",
     "polish": "śniadanie do szkoły",
     "article": "das",
-    "category": "jedzenie",
-    "example": null
+    "category": "jedzenie"
   },
   {
     "german": "Schulband-AG",
     "polish": "szkolny zespół muzyczny",
     "article": "die",
-    "category": "szkoła",
-    "example": null
+    "category": "szkoła"
   },
   {
     "german": "Schule",
     "polish": "szkoła",
     "article": "die",
-    "category": "szkoła",
-    "example": null
+    "category": "szkoła"
   },
   {
     "german": "Schulfach",
     "polish": "przedmiot szkolny",
     "article": "das",
-    "category": "szkoła",
-    "example": null
+    "category": "szkoła"
   },
   {
     "german": "Stundenplan",
     "polish": "plan lekcji",
     "article": "der",
-    "category": "szkoła",
-    "example": null
+    "category": "szkoła"
   },
   {
     "german": "Handy",
     "polish": "telefon komórkowy",
     "article": "das",
-    "category": "technologia",
-    "example": null
+    "category": "technologia"
   },
   {
     "german": "Grundschule",
     "polish": "szkoła podstawowa",
     "article": "die",
-    "category": "szkoła",
-    "example": null
+    "category": "szkoła"
   },
   {
     "german": "Gymnasium",
     "polish": "gimnazjum",
     "article": "das",
-    "category": "szkoła",
-    "example": null
+    "category": "szkoła"
   }
 ]);
 
