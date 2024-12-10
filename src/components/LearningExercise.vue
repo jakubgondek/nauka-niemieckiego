@@ -64,8 +64,10 @@ const normalizeText = (text: string): string => {
 const checkAnswer = () => {
   if (!currentWord.value) return;
   
-  const correctAnswer = isPolishToGerman.value 
-    ? `${currentWord.value.article} ${currentWord.value.german}`
+  const correctAnswer = isPolishToGerman.value
+    ? currentWord.value.article && currentWord.value.german
+      ? `${currentWord.value.article} ${currentWord.value.german}`
+      : currentWord.value.german
     : currentWord.value.polish;
   
   const normalizedCorrect = normalizeText(correctAnswer);
@@ -196,7 +198,7 @@ const setSessionSize = (size: number | 'all') => {
         v-model="userAnswer"
         type="text"
         class="w-full p-2 border rounded"
-        :placeholder="isPolishToGerman ? 'Wpisz po niemiecku (z rodzajnikiem)...' : 'Wpisz po polsku...'"
+        :placeholder="isPolishToGerman ? 'Wpisz po niemiecku...' : 'Wpisz po polsku...'"
         @keyup.enter="checkAnswer"
       >
     </div>
